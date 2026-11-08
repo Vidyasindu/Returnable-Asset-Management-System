@@ -1,0 +1,6 @@
+anomaly_id,issue_type,entity_type,entity_id,ground_truth,description
+1,SIMULTANEOUS_LOCATIONS,ReusableAsset,ASSET-0000001,ANOMALY,Two custody transfers place the same asset at two locations at the same time.
+2,RETURN_BEFORE_DISPATCH,CustodyEvent,CUST-ASSET-0000002-000006,ANOMALY,Return event occurs before the corresponding dispatch.
+3,DUPLICATE_REFUND,DepositLedger,RMA-2026-000001,ANOMALY,The same refund has been recorded twice.
+4,REPAIR_WITHOUT_VALID_ASSET_INSPECTION,Repair,REP-2026-004953,ANOMALY,Repair references an inspection belonging to a different asset.
+5,MISSING_CUSTODY_ACTOR,CustodyEvent,CUST-ASSET-0000004-000006,ANOMALY,Custody event has no responsible actor.

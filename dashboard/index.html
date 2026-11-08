@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Returnable Asset Management Dashboard</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    padding: 30px;
+}
+h1 { color: #243b53; }
+.card {
+    background: white;
+    padding: 20px;
+    margin: 12px;
+    display: inline-block;
+    min-width: 180px;
+    border-radius: 8px;
+}
+.number {
+    font-size: 28px;
+    font-weight: bold;
+    color: #176b87;
+}
+table {
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+    width: 70%;
+}
+td, th {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<h1>Returnable Asset Management Dashboard</h1>
+
+<div class="card">
+<h3>Total Assets</h3>
+<div class="number">20,000</div>
+</div>
+
+<div class="card">
+<h3>Total Shipments</h3>
+<div class="number">10,000</div>
+</div>
+
+<div class="card">
+<h3>Custody Events</h3>
+<div class="number">101,004</div>
+</div>
+
+<div class="card">
+<h3>Deposit Transactions</h3>
+<div class="number">42,030</div>
+</div>
+
+<h2>Asset Status</h2>
+<table>
+<tr><th>Status</th><th>Count</th></tr>
+<tr><td>AVAILABLE</td><td>17,531</td></tr><tr><td>DAMAGED</td><td>479</td></tr><tr><td>LOST</td><td>200</td></tr><tr><td>OVERDUE</td><td>800</td></tr><tr><td>UNDER_REPAIR</td><td>990</td></tr>
+</table>
+
+<h2>Shipment Status</h2>
+<table>
+<tr><th>Status</th><th>Count</th></tr>
+<tr><td>DELIVERED</td><td>10,000</td></tr>
+</table>
+
+<h2>Detected Anomalies</h2>
+<table>
+<tr><th>Anomaly</th><th>Count</th></tr>
+<tr><td>duplicate_refunds</td><td>1</td></tr><tr><td>missing_custody_actors</td><td>1</td></tr><tr><td>repair_inspection_mismatches</td><td>1</td></tr><tr><td>returns_before_dispatch</td><td>1</td></tr><tr><td>simultaneous_locations</td><td>1</td></tr>
+</table>
+
+<p>Random seed: 20261022</p>
+</body>
+</html>

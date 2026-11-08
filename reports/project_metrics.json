@@ -1,0 +1,56 @@
+{
+    "asset_status": {
+        "AVAILABLE": 17531,
+        "DAMAGED": 479,
+        "LOST": 200,
+        "OVERDUE": 800,
+        "UNDER_REPAIR": 990
+    },
+    "shipment_status": {
+        "DELIVERED": 10000
+    },
+    "return_status": {
+        "APPROVED": 1000,
+        "RETURNED": 20000
+    },
+    "deposit_summary": {
+        "CHARGE": {
+            "transactions": 21000,
+            "total_amount": 24431600.0
+        },
+        "DEDUCTION": {
+            "transactions": 1469,
+            "total_amount": 999387.06
+        },
+        "REFUND": {
+            "transactions": 19561,
+            "total_amount": 22268512.94
+        }
+    },
+    "record_counts": {
+        "ReusableAsset": 20000,
+        "Shipment": 10000,
+        "CustodyEvent": 101004,
+        "ReturnAuthorization": 21000,
+        "Inspection": 23483,
+        "Repair": 4953,
+        "DepositLedger": 42030
+    },
+    "foreign_key_errors": 0,
+    "detected_anomalies": {
+        "SIMULTANEOUS_LOCATIONS": 1,
+        "RETURN_BEFORE_DISPATCH": 1,
+        "DUPLICATE_REFUND": 1,
+        "REPAIR_INSPECTION_MISMATCH": 1,
+        "MISSING_CUSTODY_ACTOR": 1,
+        "SELF_TRANSFER": 1
+    },
+    "evaluation": {
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+    }
+}

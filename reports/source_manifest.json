@@ -1,0 +1,24 @@
+{
+    "seed": 20261022,
+    "database": "returnable_assets.db",
+    "table_counts": {
+        "ReusableAsset": 20000,
+        "Shipment": 10000,
+        "ShipmentAsset": 20000,
+        "CustodyEvent": 101004,
+        "ReturnAuthorization": 21000,
+        "Inspection": 23483,
+        "Repair": 4953,
+        "DepositLedger": 42030,
+        "DataAnomaly": 5
+    },
+    "outputs": [
+        "data/processed",
+        "data/ground_truth/ground_truth.csv",
+        "database/seed.sql",
+        "reports/validation_summary.json",
+        "reports/FINAL_README.md",
+        "dashboard/index.html"
+    ],
+    "reproducibility_note": "Fixed seed recorded. A second full database generation comparison has not yet been performed."
+}

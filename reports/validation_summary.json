@@ -1,0 +1,37 @@
+{
+    "random_seed": 20261022,
+    "scenario_as_of_date": "2027-04-26T00:00:00",
+    "table_counts": {
+        "ReusableAsset": 20000,
+        "Shipment": 10000,
+        "ShipmentAsset": 20000,
+        "CustodyEvent": 101004,
+        "ReturnAuthorization": 21000,
+        "Inspection": 23483,
+        "Repair": 4953,
+        "DepositLedger": 42030,
+        "DataAnomaly": 5
+    },
+    "asset_statuses": {
+        "AVAILABLE": 17531,
+        "DAMAGED": 479,
+        "LOST": 200,
+        "OVERDUE": 800,
+        "UNDER_REPAIR": 990
+    },
+    "shipment_statuses": {
+        "DELIVERED": 10000
+    },
+    "return_statuses": {
+        "APPROVED": 1000,
+        "RETURNED": 20000
+    },
+    "foreign_key_errors": 0,
+    "anomaly_detection": {
+        "duplicate_refunds": 1,
+        "missing_custody_actors": 1,
+        "repair_inspection_mismatches": 1,
+        "returns_before_dispatch": 1,
+        "simultaneous_locations": 1
+    }
+}
